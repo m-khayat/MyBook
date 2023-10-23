@@ -1,0 +1,20 @@
+body {
+    background-image: url('../images/pexels-stein-egil-liland-1933239.jpg');
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* Background color with opacity */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: white !important;; /* Change the placeholder text color to white */
+}
